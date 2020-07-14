@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JenkinsWebProjectSkillup", "JenkinsWebProjectSkillup\JenkinsWebProjectSkillup.vbproj", "{F4EF980A-38DA-41DA-A1AB-4B9F68915023}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsWebSkillup", "JenkinsWebSkillup\JenkinsWebSkillup.csproj", "{3375D5EA-A447-44ED-9EF8-203E21D1CC0B}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JenkinsWebProjectSkillup.Tests", "JenkinsWebProjectSkillup.Tests\JenkinsWebProjectSkillup.Tests.vbproj", "{7F551ECF-6320-41A2-9A15-D7B2AFB85345}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsWebSkillup.Tests", "JenkinsWebSkillup.Tests\JenkinsWebSkillup.Tests.csproj", "{C7F65034-E7D7-4FEF-8E2E-A671BDA63B1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4EF980A-38DA-41DA-A1AB-4B9F68915023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4EF980A-38DA-41DA-A1AB-4B9F68915023}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4EF980A-38DA-41DA-A1AB-4B9F68915023}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4EF980A-38DA-41DA-A1AB-4B9F68915023}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F551ECF-6320-41A2-9A15-D7B2AFB85345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F551ECF-6320-41A2-9A15-D7B2AFB85345}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F551ECF-6320-41A2-9A15-D7B2AFB85345}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F551ECF-6320-41A2-9A15-D7B2AFB85345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3375D5EA-A447-44ED-9EF8-203E21D1CC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3375D5EA-A447-44ED-9EF8-203E21D1CC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3375D5EA-A447-44ED-9EF8-203E21D1CC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3375D5EA-A447-44ED-9EF8-203E21D1CC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F65034-E7D7-4FEF-8E2E-A671BDA63B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F65034-E7D7-4FEF-8E2E-A671BDA63B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F65034-E7D7-4FEF-8E2E-A671BDA63B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F65034-E7D7-4FEF-8E2E-A671BDA63B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
