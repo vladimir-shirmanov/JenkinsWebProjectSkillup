@@ -5,7 +5,7 @@ pipeline {
         MSBUILD = 'C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\MSBuild.exe'
         NUGET = 'C:\\Program Files (x86)\\NuGet\\nuget.exe'
         CONFIG = 'Release'
-        PLATFORM = 'AnyCPU'
+        PLATFORM = 'Any CPU'
         SLN_NAME = 'JenkinsWebProjectSkillup.sln'
     }
 
@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat "\"${NUGET}\" restore ${SLN_NAME}"
-                bat "\"${MSBUILD}\" ${SLN_NAME} /p:Configuration=${env.CONFIG};Platform=${env.PLATFORM} /maxcpucount:%NUMBER_OF_PROCESSORS% /nodeReuse:false"
+                bat "\"${MSBUILD}\" ${SLN_NAME} /p:Configuration=${env.CONFIG};Platform=\"${env.PLATFORM}\" /maxcpucount:%NUMBER_OF_PROCESSORS% /nodeReuse:false"
             }
         }
         stage('Test') {
