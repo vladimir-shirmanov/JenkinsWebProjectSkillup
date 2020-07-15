@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    environmten {
+    environment {
         MSBUILD = 'C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\MSBuild.exe'
         CONFIG = 'Release'
         PLATFORM = 'AnyCPU'
@@ -24,6 +24,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
             }
+
         }
     }
 }
