@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environmten {
-        MSBUILD = 'C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe'
+        MSBUILD = 'C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\MSBuild.exe'
         CONFIG = 'Release'
         PLATFORM = 'AnyCPU'
         SLN_NAME = 'JenkinsWebProjectSkillup.sln'
