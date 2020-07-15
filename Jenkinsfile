@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat "\"${NUGET}\" restore ${SLN_NAME}"
-                bat "\"${MSBUILD}\" ${SLN_NAME} /p:Configuration${env.CONFIG};Platform=${env.PLATFORM} /maxcpucount:%NUMBER_OF_PROCESSORS% /nodeReuse:false"
+                bat "\"${MSBUILD}\" ${SLN_NAME} /p:Configuration=${env.CONFIG};Platform=${env.PLATFORM} /maxcpucount:%NUMBER_OF_PROCESSORS% /nodeReuse:false"
             }
         }
         stage('Test') {
